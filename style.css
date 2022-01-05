@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    height:100vh;
+    overflow-y: hidden;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.main{
+    margin: 40px;
+    padding-top: 50px;
+}
+.navbar nav ul li a {
+    color: black;
+}
+.header-title{
+    font-size:40px;
+}
+svg{
+    padding: 0.5px;
+}
+p{
+    color:gray;
+}
+.btn-home{
+    background-color: black;
+    padding: 12px;
+    border-radius: 6px;
+}
+.btn-home a{
+    color:white;
+    text-decoration: none;
+}
+.aside{
+    height:100%;
+    float: right;
+    position:relative;
+    top:-595px;
+}
+.form .username{
+  padding: 7px 27px;
+}
+.form .password{
+    padding: 7px 27px;  
+}
+.form-btn{
+    padding: 7px 27px ;
+    background-color: black;
+    color: white;
+}
+a{
+    color: gray;
+}

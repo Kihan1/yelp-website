@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.main{
+    margin: 40px;
+    padding-top: 50px;
+}
+.navbar{
+    padding-bottom:20px;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li span a{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    float: right;
+    padding:13px;
+}
+.note{
+    background-color: burlywood;
+    margin: 20px;
+    padding:10px;
+}
+.note-title{
+    font-size:30px;
+    padding:10px;
+}
+.note-para{
+    padding:10px;
+}
+.search-bar{
+    padding:10px;
+    border-radius: 3px;
+}
+.note-link{
+    color:black;
+}
+.btn-home{
+    background-color: black;
+    color: white;
+    padding: 10px 3px;
+    border-radius: 6px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card-link{
+      padding: 6px;
+  }
+  .footer{
+      padding: 15px;
+  }
